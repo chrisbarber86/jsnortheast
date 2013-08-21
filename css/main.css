@@ -1,0 +1,466 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  border-top: 9px solid #292929;
+  font-family: 'Open Sans', sans-serif;
+  color: #8f8f8f;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  color: #313131;
+}
+
+a {
+  color: 8f8f8f;
+}
+
+a:hover {
+  color: #e07809;
+}
+
+#header {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#logo {
+  font-size: 48px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+#logo a {
+  text-decoration: none;
+}
+
+#logo a span.title {
+  color: #292929;
+  font-size: 36px;
+}
+
+#logo a span.tagline {
+  color: #E07809;
+  font-size: 26px;
+}
+
+#topnav {
+  background: #efefef;
+  height: 60px;
+}
+
+#topnav ul {
+  background: #4a4a4a; /* Old browsers */
+  background: -moz-linear-gradient(top, #4a4a4a 0%, #303030 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a4a4a), color-stop(100%,#303030)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a4a4a 0%,#303030 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a4a4a 0%,#303030 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a4a4a 0%,#303030 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #4a4a4a 0%,#303030 100%); /* W3C */
+
+  font-size: 16px;
+  height: 60px;
+  line-height: 100%;
+  list-style-type: none;
+  margin: 10px auto 0 auto;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 960px;
+}
+
+#topnav ul li {
+  border-right: 1px solid #202020;
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+#topnav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin: 0;
+  padding: 22px 30px 21px 26px;
+  position: relative;
+  text-decoration: none;
+}
+
+#topnav ul li a.current, #topnav ul li a:hover {
+  background-color: #282828;
+  border-top: 4px solid #e07809;
+  padding-top: 18px;
+}
+
+#maincontent {
+  clear: both;
+  margin: 0 auto;
+  min-height: 200px;
+  width: 960px;
+}
+
+#content {
+  width: 630px;
+  float: left;
+  margin-top: 10px;
+}
+
+#content h1 { font-size: 28px; line-height: 28px; }
+#content h2 { font-size: 24px; line-height: 24px; }
+#content h3 { font-size: 20px; line-height: 20px; }
+#content h4 { font-size: 18px; line-height: 18px; }
+#content h5 { font-size: 15px; line-height: 15px; }
+#content h6 { font-size: 13px; line-height: 13px; }
+
+#content p { font-size: 13px; }
+
+#sidebar {
+  width: 300px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+#sidebar article {
+  background: #f9f9f9;
+  font-size: 13px;
+  color: #717171;
+  padding: 0 0 20px 0;
+}
+
+#sidebar article h2 {
+  background: #fbfbfb; /* Old browsers */
+  background: -moz-linear-gradient(top, #fbfbfb 0%, #f1f1f1 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfbfb), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbfbfb 0%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbfbfb 0%,#f1f1f1 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbfbfb 0%,#f1f1f1 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #fbfbfb 0%,#f1f1f1 100%); /* W3C */
+
+  display:block;
+  font-size:20px;
+  line-height:20px;
+  padding: 20px 20px 17px 30px;
+  text-transform:uppercase;
+}
+
+#sidebar article a {
+  text-decoration: none;
+}
+
+#sidebar article a:hover {
+  text-decoration: none;
+}
+
+#sidebar article ul {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 0px 30px 20px 30px;
+  padding: 0px;
+}
+
+#sidebar article ul li {
+  list-style-type: square;
+  padding: 8px 0px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#sidebar article ul li a {
+  color: #717171;
+}
+
+#sidebar article ul li a:hover {
+  color: #e07809;
+}
+
+#sidebar article p {
+  margin: 0px 30px;
+}
+
+#sidebar article p a {
+  color: #e07809;
+}
+
+#sidebar article p a:hover {
+  color: #717171;
+}
+
+#footer {
+  clear: both;
+  color: #9C9C9B;
+  background: #353535;
+  border-top: 8px solid #eaeaea;
+}
+
+#footer-inner {
+  margin: 0 auto;
+  width: 960px;
+  clear: both;
+}
+
+#footer-inner .column {
+  width: 32%;
+  margin-right: 1%;
+  float: left;
+}
+
+#footer-inner .column h4 {
+  color: #fff;
+  font-size: 20px;
+}
+
+#footer-inner .column p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#footer-inner .column p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer-inner .column p a:hover {
+  color: #9c9c9c;
+  text-decoration: none;
+}
+
+#copy {
+  border-top: 2px solid #e07809;
+  background: #232323;
+  color: #9C9C9C;
+  clear: both;
+}
+
+#copy-inner {
+  font-size: 11px;
+  margin: 0 auto;
+  padding: 18px 0px 20px;
+  width: 960px;
+}
+
+#copy-inner span {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

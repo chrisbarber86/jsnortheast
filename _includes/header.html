@@ -1,0 +1,25 @@
+<header id="header">
+  <div id="logo">
+    <a href="/">
+      <span class="title">JS North East</span>
+      <span class="tagline"> - A JavaScript User Group</span>
+    </a>
+  </div>
+  <nav id="topnav">
+    <ul>
+      {% for order in (1..10) %}
+        {% for node in site.pages %}
+          {% if node.order == order %}
+            {% if node.title != null %}
+              {% if page.url == node.url %}
+                <li><a href="{{ node.url }}" class="current">{{ node.title }}</a></li>
+              {% else %}
+                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
