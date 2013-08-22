@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: category
 title: Events
 order: 4
+category: events
 ---
 
 # Upcoming Events

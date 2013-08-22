@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: category
 title: Blog
 order: 3
+category: blog
 ---
 
 # Our Blog

@@ -22,6 +22,17 @@
       <div id="maincontent">
         <section id="content">
           {{ content }}
+          <hr/>
+          {% for post in site.posts %}
+            {% if post.category == page.category %}
+              <article>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p>Posted on: {{ post.date | date: "%Y %b %d" }}</p>
+                <p>{{ post.tagline }}</p>
+                <p><a href="{{ post.url }}">Read More</a></p>
+              </article>
+            {% endif %}
+          {% endfor %}
         </section>
         {% include sidebar.html %}
       </div>

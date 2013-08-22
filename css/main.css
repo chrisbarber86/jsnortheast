@@ -72,11 +72,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: 8f8f8f;
+  color: #e07809;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #e07809;
+  color: #8f8f8f;
 }
 
 #header {
@@ -175,7 +176,17 @@ a:hover {
 #content h5 { font-size: 15px; line-height: 15px; }
 #content h6 { font-size: 13px; line-height: 13px; }
 
-#content p { font-size: 13px; }
+#content { font-size: 13px; }
+#content ul { list-style-type: square; }
+
+#content hr { 
+  border-top: 1px dashed #ddd;
+}
+
+#content article {
+  border-bottom: 1px dashed #ddd;
+  margin: 20px 0 40px 0;
+}
 
 #sidebar {
   width: 300px;
