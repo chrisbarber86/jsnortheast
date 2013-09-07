@@ -1,11 +1,23 @@
 ---
-layout: default
+layout: article
 title: About
 order: 2
 ---
 
-# About us
+A meet up for members of the tech community with an interest in all things JavaScript.
 
-The game's not big enough unless it scares you a little. Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody. I've had twelve years to think about it. And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them. Now, how the hell do we defeat an enemy that knows us better than we know ourselves?
+We meet on the first Monday of the month in the [Ignite100 loft](https://www.google.co.uk/maps?sll=54.970029299999666%2C-1.6181020385923852&sspn=0.004822238166532978%2C0.015407360822010456&t=m&q=65+Westgate+Rd%2C+Newcastle+upon+Tyne&output=classic) which is currently situated at the following address:
 
-And blowing into maximum warp speed, you appeared for an instant to be in two places at once. They were just sucked into space. We have a saboteur aboard. Our neural pathways have become accustomed to your sensory input patterns. and attack the Romulans. Ensign Babyface! Well, that's certainly good to know
+<address>
+Ignite100<br>
+65 Westgate Road<br>
+Newcastle upon Tyne<br>
+NE1 1SG<br>
+United Kingdom<br>
+</address>
+
+The format of each event consists of an evening of informal presentations followed by some time allotted to chat and socialise with other attendees.
+
+Attendance is free, and enthusiasts of all levels are welcome so if your interested in coming along please signup at our [Eventbrite page](http://jsnortheast.eventbrite.co.uk/).
+
+If you wish to get more involved, please participate in our discussons in the [JSNE Discourse Forum](http://discourse.jsnortheast.co.uk).

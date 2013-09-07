@@ -1,25 +1,11 @@
 <aside id="sidebar">
   <article>
-    <h2>Upcoming Events</h2>
+    <h2>Social</h2>
     <ul>
-      {% for post in site.posts limit:5 %}
-        {% if post.category == "events" %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
+      <li><a href="http://jsnortheast.eventbrite.co.uk">Sign up for JSNE</a></li>
+      <li><a href="https://twitter.com/jsnortheast">@jsnortheast</a></li>
+      <li><a href="https://github.com/jsnortheast">jsnortheast</a></li>
     </ul>
-    <p><a href="/events">View more</a></p>
-  </article>
-  <article>
-    <h2>Recent Posts</h2>
-    <ul>
-      {% for post in site.posts limit:5 %}
-        {% if post.category == "blog" %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-    <p><a href="/blog">View more</a></p>
   </article>
   <article>
     <h2>Recent Discussion</h2>
