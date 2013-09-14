@@ -9,7 +9,7 @@ This format consists of a 5-10 minute slot where speakers are able to talk about
 The line up for this event is:
 
 * [Kerry Gallagher](https://twitter.com/kerry350) - The Trials and Tribulations of WYSIWYG Editors - [Slides](https://github.com/Kerry350/WYSIWYG-presentation)
-* [Philip Poots](https://twitter.com/pootsbook) - Hacking with [Ember.js](http://www.emberjs.com) and [Leaflet.js](http://leafletjs.com)
+* [Philip Poots](https://twitter.com/pootsbook) - Hacking with [Ember.js](http://www.emberjs.com) and [Leaflet.js](http://leafletjs.com) - [Slides](http://www.slideshare.net/pootsbook/jsne-ember) - [Demo](http://crossingtheruby.com/ember-leaflet-demo/)
 * [Damian Nicholson](http://www.twitter.com/damian) - Two way data-binding in JavaScript 
 
 
@@ -23,6 +23,6 @@ Off the back of our first meet up, everyone agreed that setting up a place to di
 
 ## Digital Ocean
 
-[Philip Poots](https://twitter.com/pootsbook) is on fire this month, and has managed to attain a special Digital Ocean promo code only available to JSNE attendees. The following code **JSNORTHEAST10** is to the value of $10 which equates to 2 free months of cloud hosting!
+[Philip Poots](https://twitter.com/pootsbook) is on fire this month, and has managed to attain a special [Digital Ocean](https://www.digitalocean.com) promo code only available to JSNE attendees. The following code **JSNORTHEAST10** is to the value of $10 which equates to 2 free months of cloud hosting!
 
-I should add that Digital Ocean3 are one of the few providers who provide reliable and affordable SSD cloud instances, and I personally know a lot of developers who vouch for their fine service.
+I should add that Digital Ocean are one of the few providers who provide reliable and affordable SSD cloud instances, and I personally know a lot of developers who vouch for their fine service.
