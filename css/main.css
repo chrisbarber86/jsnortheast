@@ -3,6 +3,25 @@
    ========================================================================== */
 
 html,
+body {
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -290px;
+}
+
+#wrapper:after {
+  content: "";
+  display: block;
+}
+
+#footer, #wrapper:after {
+  height: 290px;
+}
+
+html,
 button,
 input,
 select,
