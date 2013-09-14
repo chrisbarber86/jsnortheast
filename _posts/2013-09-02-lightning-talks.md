@@ -9,8 +9,8 @@ This format consists of a 5-10 minute slot where speakers are able to talk about
 The line up for this event is:
 
 * [Kerry Gallagher](https://twitter.com/kerry350) - The Trials and Tribulations of WYSIWYG Editors - [Slides](https://github.com/Kerry350/WYSIWYG-presentation)
-* [Philip Poots](https://twitter.com/pootsbook) - Hacking with [Ember.js](http://www.emberjs.com) and [Leaflet.js](http://leafletjs.com) - [Slides](http://www.slideshare.net/pootsbook/jsne-ember) - [Demo](http://crossingtheruby.com/ember-leaflet-demo/)
-* [Damian Nicholson](http://www.twitter.com/damian) - Two way data-binding in JavaScript 
+* [Philip Poots](https://twitter.com/pootsbook) - Hacking with [Ember.js](http://www.emberjs.com) and [Leaflet.js](http://leafletjs.com) - [Slides](http://www.slideshare.net/pootsbook/jsne-ember) - [Demo](http://crossingtheruby.com/ember-leaflet-demo/) - [Code](https://github.com/pootsbook/ember-leaflet-demo)
+* [Damian Nicholson](http://www.twitter.com/damian) - Two way data-binding in JavaScript
 
 
 ## jsnortheast.co.uk is our new home
